@@ -1,0 +1,14 @@
+.title{
+    color:Blue;
+    font-size: 30px;
+}
+
+.content{
+    color:red;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.picture{
+    width: 100%;
+}

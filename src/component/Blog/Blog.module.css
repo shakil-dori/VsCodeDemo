@@ -1,0 +1,50 @@
+
+.content {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+  }
+  .title {
+    color: grey;
+  }
+  
+  .profile {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .profile img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  }
+  .profile_name h5 {
+    size: 12px;
+    margin-left: 10px;
+    display: inline;
+  }
+  .profile_name button{
+    margin-left: 10px;
+  }
+  
+  .profile_name p{
+    size: 8px;
+    color: grey;
+    margin-left: 10px;
+    margin-top: 3px;
+    display: block;
+  }
+  
+  .social_media {
+    margin-left: auto;
+    display: flex;
+  }
+  .social_media svg {
+    width: 32px;
+    height: 32px;
+  }
+  .xx img {
+    width: 100%;
+  }
+  

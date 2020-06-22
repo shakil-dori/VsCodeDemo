@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+@font-face{
+  src:url("./Fonts/BerkshireSwash-Regular.ttf") format("truetype");
+  font-family:berk;
+
+}
+p{
+  font-family: berk;
+  /* letter-spacing: 20px; */
+  line-height: 20px;
+  font-weight: 400;
+  color: black;
+}

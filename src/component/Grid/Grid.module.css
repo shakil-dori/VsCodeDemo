@@ -1,0 +1,116 @@
+.grandparent {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    background-color: teal;
+}
+.gparent {
+    display: grid;
+    height: 100vh;
+    /* grid-template-rows: 200px 70px 130px 200px 200px; */
+    grid-template-rows: 25% 10% 15% 25% 25%;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-areas: 
+    "a1 a2 a3" 
+    "a7 a7 a4" 
+    "a8 a8 a4" 
+    "a8 a8 a5" 
+    "a8 a8 a6";
+    background-color: tomato;
+}
+.a1 {
+    font-family: berk;
+    letter-spacing: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    grid-area: a1;
+    color: black;
+    background-color: green;
+}
+.a2 {
+    grid-area: a2;
+    color: black;
+    background-color: violet;
+}
+.a3 {
+    grid-area: a3;
+    color: black;
+    background-color: blue;
+}
+.a4 {
+    grid-area: a4;
+    color: black;
+    background-color: indigo;
+}
+.a5 {
+    grid-area: a5;
+    color: black;
+    background-color: yellow;
+}
+.a6 {
+    grid-area: a6;
+    color: black;
+    background-color: orange;
+}
+.a7 {
+    grid-area: a7;
+    color: black;
+    background-color: red;
+}
+.a8 {
+    grid-area: a8;
+    color: black;   
+    background-color: gold;
+}
+@media only screen and ( max-width: 500px){
+    .grandparent{
+        margin: 0;
+        width: 100%;
+    }
+
+    .gparent{
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px ;
+            grid-template-columns:  100% ;
+            grid-template-areas: 
+            "a1"
+            "a2"
+            "a3"
+            "a4"
+            "a5"
+            "a6"
+            "a7"
+            "a8" ; 
+    }
+} 
+@media only screen and ( min-width: 500px){
+
+    .gparent{
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px  ;
+            grid-template-columns:  50% 50% ;
+            grid-template-areas: 
+            "a1 a2"
+            "a3 a3"
+            "a4 a4"
+            "a5 a5"
+            "a6 a6"
+            "a7 a7"
+            "a8 a8" ; 
+    }
+} 
+@media only screen and ( min-width: 1200px){
+
+    .gparent{
+        display: grid;
+        height: 100vh;
+        /* grid-template-rows: 200px 70px 130px 200px 200px; */
+        grid-template-rows: 25% 10% 15% 25% 25%;
+        grid-template-columns: 33% 33% 34%;
+        grid-template-areas: 
+        "a1 a2 a3" 
+        "a7 a7 a4" 
+        "a8 a8 a4" 
+        "a8 a8 a5" 
+        "a8 a8 a6"; 
+    }
+} 
